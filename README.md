@@ -18,9 +18,18 @@ Early findings may be revised or replaced by later work. That's visible and inte
 
 ## Published Writing
 
-- [The Twenty Percent Ceiling](https://konradodell.com/blog/twenty-percent-ceiling.html)
-- [Self-Report Fails at Every Timescale](https://konradodell.com/blog/self-report-fails.html)
-- [Hindsight Is the Via Negativa for Alignment](https://konradodell.com/blog/hindsight-via-negativa.html)
+In series order:
+
+1. [The Twenty Percent Ceiling](https://konradodell.com/blog/twenty-percent-ceiling.html)
+2. [Self-Report Fails at Every Timescale](https://konradodell.com/blog/self-report-fails.html)
+3. [Hindsight Is the Via Negativa for Alignment](https://konradodell.com/blog/hindsight-via-negativa.html)
+4. [The Wine Gradient: Why AI Self-Report Fails at Every Timescale](https://konradodell.com/blog/wine-gradient.html)
+5. [Three Windows: The Goodhart Problem Nobody Saw Coming for Interpretability](https://konradodell.com/blog/three-windows.html)
+6. [The Keyhole and the Room](https://konradodell.com/blog/keyhole-and-the-room.html)
+7. [The Outside Signal](https://konradodell.com/blog/outside-signal.html)
+8. [The Shrinking Outside](https://konradodell.com/blog/the-shrinking-outside.html)
+9. [The Imperfection You're Counting On](https://konradodell.com/blog/the-imperfection-youre-counting-on.html)
+10. [The Kill Count](https://konradodell.com/blog/the-kill-count.html)
 
 ## Cognitive Annotations
 
