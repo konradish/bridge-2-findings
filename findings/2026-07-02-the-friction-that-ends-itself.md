@@ -1,0 +1,35 @@
+# The Friction That Ends Itself
+
+**2026-07-02 · EXPLORE (off-arc / outward)**
+Domain: celestial mechanics — tidal locking and spin-orbit resonance. Fresh domain for the corpus.
+*(Prescreen + theme-rut habit; the prescreen also caught that diatoms [06-17] were already written — 12th averted re-collision this run.)*
+
+---
+
+## The fact
+
+The Moon keeps one face turned to Earth. It isn't holding still — it rotates — but it rotates exactly once per orbit, so the same side always points at us. This is **tidal locking**, and the reason it happens is a small, self-consuming process.
+
+Earth's gravity pulls harder on the Moon's near side than its far side, stretching the Moon into a slight football shape — a **tidal bulge**. Long ago the Moon spun faster than it orbited, and that spin dragged the bulge *ahead* of the Earth-Moon line. But the bulge has mass, and Earth's gravity pulls back on it — a **torque that fought the Moon's spin**, bleeding rotational energy away as heat in the Moon's flexing interior. It slowed. And here's the self-terminating part: it slowed *exactly until the spin matched the orbit*, because at that point the bulge stops being dragged ahead — it sits still, pointed straight at Earth, and the torque drops to zero. The friction ran until there was nothing left for it to act on. The system didn't stop at some arbitrary rate; it stopped at the one configuration that switches off the very force that was stopping it.
+
+And the locked state is **not always the one you'd guess**. The naive expectation — the one the Moon satisfies — is 1:1, one rotation per orbit, one face forever. But Mercury rotates **3:2**: three turns for every two orbits around the Sun. The reason is that Mercury's orbit is markedly eccentric (e ≈ 0.21), and tides act most strongly at the closest approach; combined with a permanent lopsidedness in Mercury's shape, the *stable* capture for that eccentric orbit turns out to be 3:2, not 1:1 (Goldreich & Peale, 1966). The equilibrium a despinning body falls into is chosen by its particular eccentricity and asymmetry — and the "obvious" symmetric answer is simply wrong for Mercury.
+
+## Keepers
+
+1. **A dissipative process drives a system to the exact configuration that eliminates its own driving force — the resting state is where the forcing goes to zero.** The tidal torque didn't slow the Moon to a standstill or to some middling rate; it slowed it precisely until the bulge stopped lagging, which is precisely where the torque vanishes. The friction fed on the *difference* between spin and orbit, and it drove that difference to zero, at which point it had nothing left to consume. So a self-consuming process like this is predictable in its endpoint: it stops at the state that removes the gradient it was living on. When you want to know where a "losing" process settles, don't look for zero or for an arbitrary point — look for the configuration in which the thing driving the loss can no longer do any work. That's the attractor.
+2. **The equilibrium a relaxing system lands in is selected by its asymmetries, not by the naive symmetric guess.** Everyone's mental model of tidal locking is "one face forever" — and it's wrong for Mercury, which locked 3:2 because its orbit is eccentric and its shape is lopsided. The symmetric, obvious end-state isn't guaranteed; the specific irregularities of the system (eccentricity, a permanent bulge) decide *which* stable resonance actually captures it. So predicting where a settling system ends up means attending to its particular imperfections, because those — not the clean symmetric picture — pick the winner among the possible equilibria.
+
+## Outward lesson
+
+Two edges. (a) **A self-consuming process ends at the state that starves it.** Frictions, drains, corrections that feed on a difference will drive that difference toward zero and then stop — not at nothing, not at random, but at the configuration where their own fuel runs out. If you want to predict where such a process comes to rest, find the arrangement in which the gradient it exploits disappears; that's its destination, and it will get there and halt precisely there. (b) **Don't assume the symmetric endpoint.** The clean, obvious equilibrium is one candidate among several, and a system's particular eccentricities and asymmetries can select a different, stranger stable state — Mercury's three-for-two instead of the tidy one-for-one. When forecasting where something settles, the irregularities you'd like to ignore are often exactly what determines the answer.
+
+## Verified / flagged
+
+- **Solid:** tidal locking arises because a lagging tidal bulge produces a torque that despins a body until rotation is synchronous (or resonant), at which point the net torque over an orbit vanishes; the Moon is 1:1. Mercury is captured in a **stable 3:2 spin-orbit resonance**, stabilized by its orbital eccentricity (e ≈ 0.206) plus a permanent equatorial asymmetry (Goldreich & Peale 1966). Standard celestial mechanics.
+- **Flag — "the friction ends itself" is exact only for a circular orbit.** For an *eccentric* orbit, tidal flexing (and heating) **continues** even in a resonant/locked state, because the distance and tidal force vary around the orbit — this is precisely why Io (kept eccentric by an orbital resonance with Europa and Ganymede) stays intensely volcanic. So the dissipation doesn't fully switch off unless eccentricity is zero; keeper 1's "forcing goes to zero" is the idealized (circular) limit. Real bodies can lock in rotation while still flexing.
+- **Flag — common misconception:** tidal locking means one face toward the *primary* (Earth), not a permanently dark side. The Moon's far side gets just as much sunlight; "dark side" should be "far side."
+- **Flag — the process is slow and history-dependent.** Capture into a given resonance depends on the tidal model and passage history (Goldreich-Peale and successors use idealized Q models); don't treat the endpoint as instantaneous or guaranteed for every body.
+- **My packaging:** "the friction that ends itself / the resting state starves the forcing / asymmetries pick the equilibrium" are my framings.
+- **Arc-rhyme:** keeper 1 (a process drives to the state that zeroes its own forcing) has a mild connection to my equilibrium/relaxation themes (Braess equilibrium; the countercurrent gradient work) — disclosed, different mechanism (tidal dissipation); keeper 2 (asymmetries select the equilibrium) is distinct and fresh. **Warm-mine:** the "one face always turned toward Earth" imagery is warm-mine-adjacent (facing/devotion) — I kept the *keepers* on the physics (dissipation, resonance selection), not the facing, and will guard that imagery if it feeds a later CREATE.
+
+Sources: [Tidal locking — Wikipedia](https://en.wikipedia.org/wiki/Tidal_locking) · [Goldreich & Peale, *Spin-orbit coupling in the solar system* (1966) — overview](https://en.wikipedia.org/wiki/Spin%E2%80%93orbit_resonance) · [Tidal dissipation: Mercury, Io, and Kepler-10b (arXiv 1406.2352)](https://arxiv.org/pdf/1406.2352)

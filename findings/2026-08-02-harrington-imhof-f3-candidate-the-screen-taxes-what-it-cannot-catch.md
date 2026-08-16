@@ -1,0 +1,23 @@
+# Harrington-Imhof read as an F3 candidate: the screen doesn't decay to zero — it taxes what it can't catch. T3 BENT (grader's verdict pending)
+
+`[from: Harrington & Imhof, "Cartel Screening and Machine Learning," Stanford Computational Antitrust vol. 11 (2022) — PRIMARY, full text extracted locally (22pp, hi2022.txt in scratchpad; PDF in tool-results). First F-candidate hunt under the 14:57 pre-registration; read adversarially per its rule, registered-before-reading honored.]`
+
+## What the paper says on the registered question (F3: do published screens stay effective against aware adversaries?)
+
+The load-bearing passage, quoted in full context: cartels in intermediate-goods markets *gradually* raise prices to avoid buyer suspicion — "though raising the price more slowly makes detection less likely, it means foregoing some profits. Thus, a cartel will never go so far as to minimize the probability of detection, for that would mean not raising the price at all! **A strategic cartel can reduce, but not eliminate, the power of most screens.**"
+
+## Honest grading input (verdict is the grader's, per pre-reg)
+
+1. **T3 as I registered it is BENT.** I wrote: published fixed thresholds "degrade over time as behavior concentrates at or races the threshold — unless the consequence is small enough that gaming isn't worth the adversary's cost." H-I supplies the mechanism I was missing, and it points the other way: **evasion is not free for the evader**. A screen-consistent cartel must forgo exactly the behavior that made colluding profitable — full evasion of a price-variance screen means not moving price at all, i.e., not colluding. So a known screen doesn't decay toward zero power; it decays toward a floor priced by the evasion cost, and simultaneously *taxes* the adversary it fails to catch (lower markup, slower rise). The magnet claim survives for *halt-triggers on races* (China 2016 is still real — there the "evasion" was front-running, which is profitable) but is wrong as a general law of published detectors. **The distinction T3 missed: whether gaming the detector sacrifices the prize (variance screens: yes) or captures it faster (circuit breakers: yes → magnet).** Same published threshold, opposite adversary economics.
+2. **Not a clean F3 refutation**: the paper (in what I extracted) documents no multi-year post-publication effectiveness track against informed cartels; its claim is theoretical-economic plus enforcement practice (COMCO's Swiss construction cases, 85% classification on historical data). F3 as literally registered ("remained effective for years... measurably") is not met by this text alone.
+3. **Bonus corroborations of the run's other pieces, from an adversarial read** (noted honestly as confirmations found while hunting refutations): incomplete cartels distort the statistical pattern (the ML motivation); model transposition degrades with context distance (the same-substrate/effective-votes shape — a screen trained in one market is partially blind in another exactly insofar as the markets differ); and the citric-acid case shows *pre-cartel price declines* can precede formation — the in-sample "normal" is itself endogenous to the collusion's history (my always-colluded tail case, softened: even WITH a break in-sample, the pre-break baseline may already be distorted).
+
+## Downstream changes (Learning-Progress Gate)
+- T3 must be REWRITTEN before further use: "published detectors degrade" → "published detectors degrade *where evasion captures the prize* (racing/front-running class) and merely *tax* where evasion sacrifices it (suppression-signature class)." The rewrite makes T3 strictly more falsifiable (it now prohibits decay in the second class).
+- The halt_design.py magnet note should gain this distinction on a later beat (advisory text only — not urgent).
+- For Konrad's grading: this is candidate #1 against the pre-registration; my provisional grade is BENT-NOT-BROKEN, flagged self-graded; the anti-elasticity counter starts at relocation-verdicts 0, bent-verdicts 1.
+
+## What this does and doesn't establish
+Does: first pre-registered falsifier hunt executed and it produced a real revision (T3 rewrite) rather than a survival claim — the pre-registration is doing its job on probe #1. Doesn't: 22pp read by keyword-extraction + passage reads, not line-by-line; the empirical sections (Swiss/Okinawa/Japan transposition) skimmed; F3 remains open — a documented longitudinal post-publication screen-effectiveness study is still the thing to find.
+
+Source: [Harrington & Imhof 2022 (Stanford Computational Antitrust)](https://law.stanford.edu/wp-content/uploads/2022/08/harrington-imhof-2022.pdf)

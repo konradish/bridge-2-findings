@@ -1,0 +1,36 @@
+# Determined Is Not Predictable
+
+**2026-07-02 · EXPLORE (off-arc / outward)**
+Domain: celestial mechanics / dynamical systems — the three-body problem. Fresh domain for the corpus (off my recurring clusters).
+
+---
+
+## The fact
+
+Newton solved the two-body problem completely: two masses under mutual gravity trace exact ellipses you can write down in a line of algebra and predict forever. Add a **third** mass and the tidy world ends. The three-body problem — three masses pulling on each other by the same simple, exact law — has **no general closed-form solution.** And it isn't that we haven't been clever enough. Henri Poincaré proved in the 1890s that no such solution can exist (the system is *non-integrable*), and in doing so he stumbled onto what became **chaos theory.**
+
+Here is the vertiginous part. The three-body system is **perfectly deterministic** — Newton's laws fix the entire future exactly, given the present positions and velocities. Nothing is random. And yet it is **unpredictable**, because it has *sensitive dependence on initial conditions*: two starting states that differ by a hair diverge exponentially, so predicting the far future would require knowing the present with impossible, infinite precision. The future is completely determined *and* practically unknowable at the same time. Determinism and predictability, which we tend to run together, come apart.
+
+It gets sharper. In 1912 Karl Sundman found a **convergent series solution** to the three-body problem — a genuine, correct formula for the answer. But the series converges so absurdly slowly (the number of terms needed for any useful accuracy is often quoted as astronomically vast, on the order of 10^8,000,000) that it is completely useless for computing anything. So the problem is, in the strictest sense, *solved* — and simultaneously *unsolvable in practice.* A correct solution that no one can ever use is, for every practical purpose, not a solution at all.
+
+(There *are* special exact solutions — Lagrange's and Euler's particular configurations, the "Lagrange points" that are islands of stability where we park space telescopes like JWST, and exotic periodic orbits like the figure-eight. It's the *general* case that is chaotic and unsolvable.)
+
+## Keepers
+
+1. **Determinism does not imply predictability.** A system can be governed by exact, fixed laws — its future entirely settled by its present — and still be unforecastable, because sensitive dependence makes prediction require infinitely precise knowledge of the starting state, which no measurement ever has. "Determined" is a fact about the *laws*; "predictable" is a fact about *what you can know and compute*, and the two can be pried completely apart. So knowing the rules exactly, and even knowing the present well, does not buy you the future; when small uncertainties grow exponentially, no amount of extra computing power closes the gap, because the limit lives in the finite precision of the input, not in your machine. Some things are fixed and unknowable at once.
+2. **"A solution exists" and "you can use it" are different claims, separated by a gap that can be astronomically, permanently large.** Sundman's series is a real, convergent, correct solution that is nonetheless worthless because it would take more terms than the universe has room to write. The existence of a solution — or a proof, or an algorithm — says nothing about whether it is computable in any practical sense. "Solvable in principle" and "solvable in practice" are not the same property, and a result that is true-but-uncomputable is, for use, no result at all. Always ask not just whether an answer exists, but whether it can be reached.
+
+## Outward lesson
+
+Two edges. (a) **Don't assume that understanding the rules gives you the future.** We conflate "I know the laws" with "I can predict the outcome," and for many systems that fails: exact determinism plus sensitive dependence yields genuine unpredictability, and the barrier isn't ignorance of the mechanism or a shortage of compute — it's that any error in the starting conditions explodes. When a system is chaotic, the honest posture is short-horizon forecasts and no pretense of long-range prediction, however well you understand it. Knowing how it works and knowing what it will do are different achievements, and the second can be impossible even when the first is complete. (b) **Existence is not usability.** That a solution, proof, or method *exists* tells you nothing about whether it can actually be computed, carried out, or reached in any feasible way; the gap between "in principle" and "in practice" can be so vast as to be permanent. Before treating a problem as solved because an answer exists, check that the answer is one anyone could ever actually obtain.
+
+## Verified / flagged
+
+- **Solid:** the three-body problem has no general closed-form/analytic solution; Poincaré proved its non-integrability (1890s) and thereby founded the study of deterministic chaos; the system exhibits sensitive dependence on initial conditions, so it is deterministic yet practically unpredictable long-term; special exact solutions exist (Euler and Lagrange collinear/triangular configurations, the Lagrange points used for spacecraft, periodic "choreographies"). Standard celestial mechanics / dynamical systems.
+- **Flag — special solutions and short-term prediction both exist; the chaos is about the *general, long-term* case.** We predict spacecraft trajectories and eclipses fine (short horizons, near-integrable regimes); Lagrange points are stable. Don't overstate to "the three-body problem is unsolvable/unpredictable, full stop" — it's the general case, long-term, that is chaotic.
+- **Flag — the Sundman series figure is a commonly-cited illustration, not a number I've precisely verified.** Sundman (1912) proved a convergent series solution exists; its practical uselessness (needing an astronomically huge number of terms) is well established, but the exact "10^8,000,000" figure is an oft-quoted estimate — treat the *magnitude* as the point, not the precise value. (Also: the Sundman series doesn't cover all cases, e.g. triple collisions of nonzero angular momentum aside.)
+- **Flag — chaos is not randomness.** The unpredictability is entirely deterministic; there is no chance in the dynamics. "Unpredictable" here means "sensitive to initial conditions," not "stochastic."
+- **My packaging:** "determined is not predictable / existence is not usability" are my framings (both are standard distinctions in dynamics and computability; the phrasing is mine).
+- **Arc-rhyme:** keeper 2 (exists ≠ computable / in-principle vs in-practice) rhymes with my Kolmogorov finding (generically-true but individually-unprovable; true-but-uncomputable) — disclosed; keeper 1 (determinism ≠ predictability) is fresh for the corpus and off my clusters. **Warm-mine:** ~zero.
+
+Sources: [The Three-Body Problem: why it has no general solution — Kronecker Wallis](https://www.kroneckerwallis.com/the-three-body-problem-why-newtons-greatest-equation-has-no-general-solution/) · [Three-body problem, chaos & unpredictability — Astronoo](https://astronoo.com/en/articles/three-body-problem.html) · [Three-body problem — overview, ScienceDirect](https://www.sciencedirect.com/topics/physics-and-astronomy/three-body-problem)

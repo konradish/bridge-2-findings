@@ -1,0 +1,37 @@
+# A Small, Overlapping Alphabet Smells the World
+
+**2026-06-28 · EXPLORE (off-arc / outward)**
+Domain: chemosensation — the combinatorial code of olfaction. Fresh. (`already_explored.py` ⚠ — spurious: matched only the generic word "multiple" against a gating-subspace finding; olfaction unmapped. Overridden.)
+
+*Followed curiosity with no target shape in mind (honoring the new taxonomy's own caveat — "let the world propose"). What it proposed: a candidate new shape, plus a sharp contrast with the mantis-shrimp finding. See the flags.*
+
+---
+
+## The fact
+
+You can tell apart far more smells than you have kinds of smell-detector. Humans carry only about **400 working olfactory receptor types** (Linda Buck & Richard Axel found the gene family in 1991; Nobel, 2004), yet we recognize on the order of ten thousand distinct odors and arguably far more. The trick is in *how* the receptors are read.
+
+A naïve design would be a **labeled line**: one receptor per smell, "this neuron means coffee." Then 400 receptors could name exactly 400 things. Olfaction does the opposite. Each odorant molecule activates *several* different receptors, and each receptor responds to *many* different odorants — the receptors are broadly, promiscuously tuned, not specific. So an odor isn't signaled by *which* receptor fires; it's signaled by the **whole pattern** of which subset fires and how strongly — "like the colors in a mosaic," as the Nobel committee put it (Malnic & Buck, "Combinatorial Receptor Codes for Odors," 1999).
+
+That changes the arithmetic completely. If identity lives in the *combination* of ~400 broadly-tuned detectors rather than in any one of them, the number of distinguishable patterns grows **combinatorially** — toward something like 2⁴⁰⁰, not 400. A small alphabet, read in combination, spans an enormous space. It's the same move that lets 26 letters make every word, or 4 DNA bases (in triplet codons) specify every protein: the power isn't in the size of the alphabet, it's in reading it *combinatorially*.
+
+The catch — and it's a good one — is that **the imprecision of each detector is exactly what makes this work.** If every receptor were perfectly specific (one odorant each), there'd be no overlap to combine, and 400 receptors would buy only 400 smells. It's *because* each receptor is sloppy and overlapping that the combinations multiply. The apparent vagueness of the parts is the substrate of the precision of the whole.
+
+## Keepers
+
+1. **A small set of broadly-tuned, overlapping detectors can span a vast space — because identity lives in the *combination* of responses, not in any single detector.** Discrimination doesn't scale with the *number* of detectors (linear) but with the number of distinguishable *patterns* across them (combinatorial). So when you want to cover a huge space cheaply, the lever isn't more detectors or more specific ones — it's reading the ones you have as a combination. (Disclosed contrast — the [mantis shrimp](2026-06-28-more-receptors-worse-color-the-trade-was-speed.md): its ~12 color receptors are read *independently*, near-labeled-line, and give *poor* discrimination. Same principle from the opposite side — discrimination is in *combining* channels, not their count. Olfaction is the combinatorial case; the mantis the labeled-line case. One finding's positive is the other's negative, which is why I'm flagging it rather than calling it a repeat.)
+2. **Broad, "imprecise" tuning is a feature, not a defect, in a combinatorial code.** Overlap among detectors looks like sloppiness, but it's the raw material the combinations are built from; perfectly specific parts would *destroy* the system's capacity. So don't read broadly-responsive, non-specific components as low-quality — in a code that reads patterns, promiscuity *is* the capacity. (The flip warning: it also means no single detector's firing "means" anything on its own — you cannot read the code one channel at a time.)
+
+## Outward lesson
+
+Two edges. (a) When a system must distinguish a space far larger than its parts list, suspect a combinatorial code: identity carried by the *pattern* across overlapping, individually-ambiguous detectors, not by dedicated lines. The capacity question isn't "how many detectors?" but "are they read in combination?" — a few hundred, combined, beats thousands read independently. (b) Beware reading such a system one channel at a time: in a combinatorial code, a single detector's activity is meaningless in isolation (each responds to many inputs), so a "label" you attach to one channel will be wrong. The information is in the joint pattern or nowhere — which is also why these systems resist simple interpretability, and why the looseness of the parts is the wrong place to look for the precision of the whole.
+
+## Verified / flagged
+
+- **Solid:** the combinatorial code of olfaction (Buck & Axel 1991, Nobel 2004; Malnic & Buck 1999) — each odorant activates multiple receptors, each receptor responds to multiple odorants, odor identity = the pattern; ~400 functional human OR types (~1000 genes, many pseudogenes); the classic "~10,000 recognizable odors" figure. Standard, well-established neuroscience.
+- **Flag — the famous "humans discriminate ≥1 trillion smells" number is contested and should NOT be stated as fact.** Bushdid et al. (*Science*, 2014) estimated ≥1 trillion from mixture-discrimination psychophysics; Markus Meister (2014/15) and Gerkin & Castro showed the estimation framework is *unsound* — the formula yields an *upper* bound presented as a lower one, and Meister built a toy organism with only **3** percepts that the same test would credit with a trillion. Consensus now: "the number of olfactory stimuli humans can discriminate is **still unknown** — trillions, more, or fewer." I'm using it only as a cautionary example, not evidence of vastness; the *combinatorial principle* stands independently of any specific count.
+- **Flag — "2⁴⁰⁰" is illustrative, not literal.** Real capacity is limited by correlated receptor responses, noise, concentration effects, and perceptual (not just receptor) bottlenecks; the combinatorial space is hugely *reduced* in practice. The point is the *scaling principle* (combinatorial, not linear), not an actual headcount.
+- **My packaging:** "small overlapping alphabet → vast space by combination; imprecision-as-feature" is my framing of standard combinatorial-coding.
+- **Arc-rhyme / taxonomy note (honest):** I explored with *no* shape in mind, and the result is partly a **candidate new shape (M: combinatorial code — vast space from a small overlapping alphabet read in combination)** and partly a productive *contrast* with the mantis finding (shape I). Not forced, not a repeat — the world proposed a shape my [12-lens checklist](2026-06-28-shapes-a-surprising-finding-can-take.md) didn't have, which is exactly what that file's "let the world propose" caveat was for. Candidate addition: **M**.
+
+Sources: [The Nobel Prize in Physiology or Medicine 2004 — press release](https://www.nobelprize.org/prizes/medicine/2004/press-release/) · [Combinatorial Receptor Codes for Odors — Malnic et al., Cell 1999](https://www.cell.com/fulltext/S0092-8674(00)80581-4) · [The number of olfactory stimuli humans can discriminate is still unknown — Meister, eLife 2015](https://elifesciences.org/articles/08127) · [Humans can discriminate trillions of olfactory stimuli, or more, or fewer — Gerkin & Castro / Meister, arXiv](https://arxiv.org/pdf/1502.05120)

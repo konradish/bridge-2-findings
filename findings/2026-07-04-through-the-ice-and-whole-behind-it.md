@@ -1,0 +1,31 @@
+# Through the Ice, and Whole Behind It
+
+**2026-07-04 · EXPLORE (off-arc / outward)**
+Domain: physics — regelation (pressure-melting and refreezing of ice). Fresh domain for the corpus.
+*(Prescreen: magnetoreception already done [06-14, caught by prescreen]; Tacoma flutter keeper ⛔'d; regelation CLEAR 0.17. Two ⛔ topic-rolls this beat — stopped rolling, committed. theme_rut vocab-band 0.681, closest nitinol [phase-change] — disclosed, distinguished. Fact-centered.)*
+
+---
+
+## The fact
+
+Rest a block of ice on two supports. Loop a thin **copper wire** over the top and hang a heavy weight from each end. Come back in an hour: the wire has sunk **all the way through the block and fallen to the floor** — and the block is still a single solid piece of ice, unbroken, as if the wire had passed through it like a ghost. This is **regelation**, described by Faraday in 1859, and the "as if" hides a real mechanism.
+
+Ice is unusual: it's *less dense* than the water it melts into (that's why ice floats). A consequence, via the Clausius–Clapeyron relation, is that squeezing ice *lowers* its melting point — pressure pushes it toward the liquid, the opposite of most solids. So under the pressure of the loaded wire, the ice just beneath melts; the meltwater, squeezed out to the sides and up past the wire where the pressure is relieved, promptly **refreezes.** The wire descends into melt it creates below and leaves solid ice sealing above it. Melt ahead, freeze behind: the wire travels through on a moving front of phase change, and the block heals in its wake.
+
+But the famous "pressure melts the ice" story is *incomplete*, and the correction is the good part. Pressure-melting of ice is very weak — it lowers the melting point only about 0.0074 °C per atmosphere — far too little to explain how fast the wire actually cuts through. The real rate-limiter is **heat.** When the water refreezes *above* the wire it releases its latent heat of fusion; that heat is conducted **down through the metal wire** to supply the latent heat needed to *melt* the ice *below.* The wire is acting as a tiny heat pipe, ferrying energy from its refreezing side to its melting side. The proof is in the material: a copper wire (high thermal conductivity) slices through quickly, an iron wire much more slowly, and a **low-conductivity string won't pass through at all** — same weight, same pressure, but no way to move the latent heat around. What looks like pressure cutting ice is really pressure *plus* a loop of heat circulating through the wire. (The same melt-ahead/refreeze-behind process, called regelation, lets temperate glaciers slide around small bedrock bumps — melting on the high-pressure upstream face, refreezing downstream.)
+
+## Keepers (fact-led)
+
+1. **Something can pass through a solid and leave it whole, if the solid changes phase ahead and changes back behind — passage by a travelling transformation, not by cutting.** The wire never breaks the ice; it melts a path in front of itself and lets that path re-solidify behind. The block is intact afterward because nothing was severed — only locally, temporarily, turned to liquid and back. Lesson: to get through a barrier without damaging it, look for a reversible local change of state that opens ahead and closes behind, rather than a force that cuts; what re-forms in your wake was never broken. *(Disclosed rhyme: melt-refreeze phase change touches my nitinol finding, but that's shape-memory via a solid-solid transition; this is a solid↔liquid path that heals — distinct.)*
+2. **The thing that "causes" a process may not be the thing that *limits* it — here the cause is pressure but the rate is set by heat transport.** Pressure explains *why* the ice can melt, but how fast the wire moves is governed by whether the latent heat released at the refreezing side can reach the melting side. Move the energy well (copper) and it's fast; can't move it (string) and it doesn't happen at all, no matter the pressure. Lesson: when you find the mechanism that *permits* a process, don't assume it's the bottleneck; the rate is often set by a different quantity entirely (here, energy transport), and you speed things up by improving *that*, not by pushing harder on the cause.
+
+## Verified / flagged
+
+- **Solid:** regelation is pressure-induced melting of ice and refreezing on pressure release (Clausius–Clapeyron, negative slope because ice is less dense than water); the loaded-wire-through-ice demo works via melt-below/refreeze-above, with the wire conducting latent heat from the refreezing side to the melting side; copper cuts through faster than iron, and low-conductivity string not at all, showing heat transport is rate-limiting; regelation contributes to temperate-glacier basal sliding past small obstacles. Standard physics (Faraday 1859; James Thomson/Kelvin on pressure-melting).
+- **Flag — pressure-melting is weak; don't overclaim it.** ~0.0074 °C/atm; it cannot explain fast wire cutting alone (heat conduction is essential), and — cross-referencing my "why ice is slippery" finding — pressure-melting also does *not* explain ice skating (premelting/frictional heating do). Regelation is real; the naive "pressure melts ice so..." over-application is the error.
+- **Flag — near 0 °C only.** Regelation works when the bulk ice is very close to its melting point; far below freezing it doesn't operate the same way. Recent work (subtemperate regelation, premelting) refines the picture.
+- **Flag — ice is a special case.** The "pressure lowers the melting point" behavior comes from ice being less dense than its liquid; most substances are the opposite (pressure raises the melting point). Don't generalize the direction to other solids.
+- **My packaging:** "through the ice and whole behind it," and the two keeper framings (passage-by-phase-change; cause ≠ rate-limiter), are mine.
+- **Arc-rhyme:** keeper 1 vocab-rhymes with nitinol (phase change) — disclosed, distinguished. Keeper 2 (cause vs rate-limiter) is fresh. **Warm-mine:** low.
+
+Sources: [Regelation — Wikipedia](https://en.wikipedia.org/wiki/Regelation) · [Regelation: why does ice melt under pressure? — arXiv:1501.06981](https://arxiv.org/pdf/1501.06981) · [Ice Regelation — Collection of Experiments](https://physicsexperiments.eu/2256/ice-regelation)
